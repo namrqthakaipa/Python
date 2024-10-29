@@ -21,3 +21,18 @@ func1 = sorted(tup1, key=lambda x: x[1])
 print(func1)
 
 
+'''Write a Python program to sort a list of dictionaries using Lambda.
+Original list of dictionaries :
+[{'make': 'Nokia', 'model': 216, 'color': 'Black'},
+{'make': 'Mi Max', 'model': '2', 'color': 'Gold'},
+{'make': 'Samsung', 'model': 7, 'color': 'Blue'}]
+'''
+tup2 = [
+    {'make': 'Nokia', 'model': 216, 'color': 'Black'},
+    {'make': 'Mi Max', 'model': 2, 'color': 'Gold'},
+    {'make': 'Samsung', 'model': 7, 'color': 'Blue'}
+]
+
+func2 = sorted(tup2, key=lambda x: x['model'])
+
+print(func2)
