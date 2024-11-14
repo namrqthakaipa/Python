@@ -36,3 +36,11 @@ tup2 = [
 func2 = sorted(tup2, key=lambda x: x['model'])
 
 print(func2)
+
+
+
+'''Write a Python program to filter a list of integers using Lambda.
+Original list of integers:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]'''
+
+tup3 = 
